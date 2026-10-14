@@ -1,0 +1,54 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and database backups
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Downloaded models and training artifacts
+models/
+checkpoints/
+adapters/
+merged/
+*.safetensors
+*.gguf
+*.bin
+
+# Dataset files and generated outputs
+data/raw/
+data/processed/
+data/custom/
+outputs/
+results/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml

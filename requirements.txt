@@ -1,0 +1,14 @@
+transformers
+datasets
+accelerate
+peft
+trl
+sqlglot
+pandas
+numpy
+scikit-learn
+python-dotenv
+fastapi
+uvicorn
+streamlit
+snowflake-connector-python
